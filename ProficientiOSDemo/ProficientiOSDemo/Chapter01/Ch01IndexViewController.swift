@@ -16,6 +16,7 @@ class Ch01IndexViewController: UIViewController {
         
         if let _ = self.navigationController {
             self.title = "第一章"
+            
         }
     }
 
