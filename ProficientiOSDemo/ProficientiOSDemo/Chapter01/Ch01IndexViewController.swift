@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  Ch01IndexViewController.swift
 //  ProficientiOSDemo
 //
 //  Created by glimmerlu on 16/7/12.
@@ -8,18 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class Ch01IndexViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor.whiteColor()
+        
+        if let _ = self.navigationController {
+            self.title = "第一章"
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
-
 }
-
