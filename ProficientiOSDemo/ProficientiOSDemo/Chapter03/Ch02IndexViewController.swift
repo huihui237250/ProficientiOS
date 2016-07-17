@@ -1,17 +1,17 @@
 //
-//  Ch01IndexViewController.swift
+//  Ch02IndexViewController.swift
 //  ProficientiOSDemo
 //
-//  Created by glimmerlu on 16/7/12.
+//  Created by glimmerlu on 16/7/17.
 //  Copyright © 2016年 huihui. All rights reserved.
 //
 
 import UIKit
 
-class Ch01IndexViewController: CommonTableViewController {
+class Ch02IndexViewController: CommonTableViewController {
     
     var NewListData:Array<Dictionary<String,AnyObject>> = [
-        ["Name":"Hello World","ViewController":HelloWorldViewController()]
+        ["Name":"Button Fun","ViewController":ButtonFunViewController()]
     ]
 
     override func viewDidLoad() {
@@ -20,7 +20,7 @@ class Ch01IndexViewController: CommonTableViewController {
         self.view.backgroundColor = UIColor.whiteColor()
         
         if let _ = self.navigationController {
-            self.title = "第一章"
+            self.title = "第二章"
             
         }
     }

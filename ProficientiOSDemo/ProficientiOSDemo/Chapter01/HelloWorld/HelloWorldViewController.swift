@@ -1,0 +1,21 @@
+//
+//  HelloWorldViewController.swift
+//  ProficientiOSDemo
+//
+//  Created by glimmerlu on 16/7/17.
+//  Copyright © 2016年 huihui. All rights reserved.
+//
+
+import UIKit
+
+class HelloWorldViewController: CommonViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+
+}
