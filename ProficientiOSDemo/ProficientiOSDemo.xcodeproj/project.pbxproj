@@ -14,7 +14,12 @@
 		8152F12B1D351B4B00BB8423 /* ProficientiOSDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152F12A1D351B4B00BB8423 /* ProficientiOSDemoTests.swift */; };
 		8152F1361D351B4B00BB8423 /* ProficientiOSDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152F1351D351B4B00BB8423 /* ProficientiOSDemoUITests.swift */; };
 		8152F1441D353C4800BB8423 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152F1431D353C4800BB8423 /* RootViewController.swift */; };
-		8152F14A1D3541A900BB8423 /* Ch01IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152F1491D3541A900BB8423 /* Ch01IndexViewController.swift */; };
+		8189F33B1D58B344008861BD /* Ch02IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8189F33A1D58B344008861BD /* Ch02IndexViewController.swift */; };
+		8189F33D1D58B453008861BD /* CommonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8189F33C1D58B453008861BD /* CommonTableViewController.swift */; };
+		8189F33F1D58C463008861BD /* Ch03IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8189F33E1D58C463008861BD /* Ch03IndexViewController.swift */; };
+		8189F3411D58C51D008861BD /* CommonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8189F3401D58C51D008861BD /* CommonViewController.swift */; };
+		8189F3451D58C560008861BD /* ButtonFunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8189F3431D58C560008861BD /* ButtonFunViewController.swift */; };
+		8189F3461D58C560008861BD /* ButtonFunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8189F3441D58C560008861BD /* ButtonFunViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +53,12 @@
 		8152F1351D351B4B00BB8423 /* ProficientiOSDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProficientiOSDemoUITests.swift; sourceTree = "<group>"; };
 		8152F1371D351B4B00BB8423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8152F1431D353C4800BB8423 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootViewController.swift; path = ../RootViewController.swift; sourceTree = "<group>"; };
-		8152F1491D3541A900BB8423 /* Ch01IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ch01IndexViewController.swift; sourceTree = "<group>"; };
+		8189F33A1D58B344008861BD /* Ch02IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ch02IndexViewController.swift; sourceTree = "<group>"; };
+		8189F33C1D58B453008861BD /* CommonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTableViewController.swift; sourceTree = "<group>"; };
+		8189F33E1D58C463008861BD /* Ch03IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ch03IndexViewController.swift; sourceTree = "<group>"; };
+		8189F3401D58C51D008861BD /* CommonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonViewController.swift; sourceTree = "<group>"; };
+		8189F3431D58C560008861BD /* ButtonFunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonFunViewController.swift; sourceTree = "<group>"; };
+		8189F3441D58C560008861BD /* ButtonFunViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonFunViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +89,8 @@
 		8152F1091D351B4A00BB8423 = {
 			isa = PBXGroup;
 			children = (
-				8152F1481D35418100BB8423 /* Chapter01 */,
+				8189F3391D58B344008861BD /* Chapter02 */,
+				8189F3381D58B313008861BD /* Chapter03 */,
 				8152F1141D351B4B00BB8423 /* ProficientiOSDemo */,
 				8152F1291D351B4B00BB8423 /* ProficientiOSDemoTests */,
 				8152F1341D351B4B00BB8423 /* ProficientiOSDemoUITests */,
@@ -106,6 +117,8 @@
 				8152F11C1D351B4B00BB8423 /* Assets.xcassets */,
 				8152F11E1D351B4B00BB8423 /* LaunchScreen.storyboard */,
 				8152F1211D351B4B00BB8423 /* Info.plist */,
+				8189F33C1D58B453008861BD /* CommonTableViewController.swift */,
+				8189F3401D58C51D008861BD /* CommonViewController.swift */,
 			);
 			path = ProficientiOSDemo;
 			sourceTree = "<group>";
@@ -128,13 +141,32 @@
 			path = ProficientiOSDemoUITests;
 			sourceTree = "<group>";
 		};
-		8152F1481D35418100BB8423 /* Chapter01 */ = {
+		8189F3381D58B313008861BD /* Chapter03 */ = {
 			isa = PBXGroup;
 			children = (
-				8152F1491D3541A900BB8423 /* Ch01IndexViewController.swift */,
+				8189F3421D58C529008861BD /* Button Fun */,
+				8189F33E1D58C463008861BD /* Ch03IndexViewController.swift */,
 			);
-			name = Chapter01;
-			path = ProficientiOSDemo/Chapter01;
+			name = Chapter03;
+			path = ProficientiOSDemo/Chapter03;
+			sourceTree = "<group>";
+		};
+		8189F3391D58B344008861BD /* Chapter02 */ = {
+			isa = PBXGroup;
+			children = (
+				8189F33A1D58B344008861BD /* Ch02IndexViewController.swift */,
+			);
+			name = Chapter02;
+			path = ProficientiOSDemo/Chapter02;
+			sourceTree = "<group>";
+		};
+		8189F3421D58C529008861BD /* Button Fun */ = {
+			isa = PBXGroup;
+			children = (
+				8189F3431D58C560008861BD /* ButtonFunViewController.swift */,
+				8189F3441D58C560008861BD /* ButtonFunViewController.xib */,
+			);
+			name = "Button Fun";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8189F3461D58C560008861BD /* ButtonFunViewController.xib in Resources */,
 				8152F1201D351B4B00BB8423 /* LaunchScreen.storyboard in Resources */,
 				8152F11D1D351B4B00BB8423 /* Assets.xcassets in Resources */,
 				8152F11B1D351B4B00BB8423 /* Main.storyboard in Resources */,
@@ -268,9 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8189F3451D58C560008861BD /* ButtonFunViewController.swift in Sources */,
+				8189F33F1D58C463008861BD /* Ch03IndexViewController.swift in Sources */,
 				8152F1441D353C4800BB8423 /* RootViewController.swift in Sources */,
+				8189F33B1D58B344008861BD /* Ch02IndexViewController.swift in Sources */,
+				8189F3411D58C51D008861BD /* CommonViewController.swift in Sources */,
+				8189F33D1D58B453008861BD /* CommonTableViewController.swift in Sources */,
 				8152F1161D351B4B00BB8423 /* AppDelegate.swift in Sources */,
-				8152F14A1D3541A900BB8423 /* Ch01IndexViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +534,7 @@
 				8152F13C1D351B4B00BB8423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8152F13D1D351B4B00BB8423 /* Build configuration list for PBXNativeTarget "ProficientiOSDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +543,7 @@
 				8152F13F1D351B4B00BB8423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8152F1401D351B4B00BB8423 /* Build configuration list for PBXNativeTarget "ProficientiOSDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +552,7 @@
 				8152F1421D351B4B00BB8423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
