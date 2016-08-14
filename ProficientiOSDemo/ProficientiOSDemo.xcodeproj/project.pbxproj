@@ -20,6 +20,7 @@
 		8189F3411D58C51D008861BD /* CommonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8189F3401D58C51D008861BD /* CommonViewController.swift */; };
 		8189F3451D58C560008861BD /* ButtonFunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8189F3431D58C560008861BD /* ButtonFunViewController.swift */; };
 		8189F3461D58C560008861BD /* ButtonFunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8189F3441D58C560008861BD /* ButtonFunViewController.xib */; };
+		81BF7D691D6076A600B915E1 /* Ch04IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BF7D681D6076A600B915E1 /* Ch04IndexViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		8189F3401D58C51D008861BD /* CommonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonViewController.swift; sourceTree = "<group>"; };
 		8189F3431D58C560008861BD /* ButtonFunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonFunViewController.swift; sourceTree = "<group>"; };
 		8189F3441D58C560008861BD /* ButtonFunViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonFunViewController.xib; sourceTree = "<group>"; };
+		81BF7D681D6076A600B915E1 /* Ch04IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ch04IndexViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		8152F1091D351B4A00BB8423 = {
 			isa = PBXGroup;
 			children = (
+				81BF7D671D60767500B915E1 /* Chapter04 */,
 				8189F3391D58B344008861BD /* Chapter02 */,
 				8189F3381D58B313008861BD /* Chapter03 */,
 				8152F1141D351B4B00BB8423 /* ProficientiOSDemo */,
@@ -167,6 +170,15 @@
 				8189F3441D58C560008861BD /* ButtonFunViewController.xib */,
 			);
 			name = "Button Fun";
+			sourceTree = "<group>";
+		};
+		81BF7D671D60767500B915E1 /* Chapter04 */ = {
+			isa = PBXGroup;
+			children = (
+				81BF7D681D6076A600B915E1 /* Ch04IndexViewController.swift */,
+			);
+			name = Chapter04;
+			path = ProficientiOSDemo/Chapter04;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +319,7 @@
 				8189F33B1D58B344008861BD /* Ch02IndexViewController.swift in Sources */,
 				8189F3411D58C51D008861BD /* CommonViewController.swift in Sources */,
 				8189F33D1D58B453008861BD /* CommonTableViewController.swift in Sources */,
+				81BF7D691D6076A600B915E1 /* Ch04IndexViewController.swift in Sources */,
 				8152F1161D351B4B00BB8423 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

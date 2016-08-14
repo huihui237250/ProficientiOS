@@ -12,17 +12,11 @@ class RootViewController: UITableViewController {
     
     var ListData:Array<Dictionary<String,AnyObject>> = [
         ["Name":"第二章 Demo","ViewController":Ch02IndexViewController()],
-        ["Name":"第三章 Demo","ViewController":Ch03IndexViewController()]]
+        ["Name":"第三章 Demo","ViewController":Ch03IndexViewController()],
+        ["Name":"第四章 Demo","ViewController":Ch04IndexViewController()]]
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-        
         self.title = "精通iOS开发"
     }
 

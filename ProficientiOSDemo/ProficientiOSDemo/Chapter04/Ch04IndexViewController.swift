@@ -1,25 +1,20 @@
 //
-//  Ch03IndexViewController.swift
+//  Ch04IndexViewController.swift
 //  ProficientiOSDemo
 //
-//  Created by glimmerlu on 16/8/8.
+//  Created by glimmerlu on 16/8/14.
 //  Copyright © 2016年 huihui. All rights reserved.
 //
 
 import UIKit
 
-class Ch03IndexViewController: CommonTableViewController {
+class Ch04IndexViewController: CommonTableViewController {
 
     override func viewDidLoad() {
-        
         let array:Array<Dictionary<String,AnyObject>> = [["Name":"Button Fun","ViewController":ButtonFunViewController()]];
         super.listData = array
         
         super.viewDidLoad()
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
     }
 
 }
