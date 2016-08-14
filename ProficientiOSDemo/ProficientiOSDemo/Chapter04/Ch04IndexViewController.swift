@@ -11,7 +11,7 @@ import UIKit
 class Ch04IndexViewController: CommonTableViewController {
 
     override func viewDidLoad() {
-        let array:Array<Dictionary<String,AnyObject>> = [["Name":"Button Fun","ViewController":ButtonFunViewController()]];
+        let array:Array<Dictionary<String,AnyObject>> = [["Name":"Control Fun","ViewController":ControlFunViewController()]];
         super.listData = array
         
         super.viewDidLoad()

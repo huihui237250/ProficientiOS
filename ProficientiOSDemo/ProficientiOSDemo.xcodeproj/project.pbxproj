@@ -21,6 +21,9 @@
 		8189F3451D58C560008861BD /* ButtonFunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8189F3431D58C560008861BD /* ButtonFunViewController.swift */; };
 		8189F3461D58C560008861BD /* ButtonFunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8189F3441D58C560008861BD /* ButtonFunViewController.xib */; };
 		81BF7D691D6076A600B915E1 /* Ch04IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BF7D681D6076A600B915E1 /* Ch04IndexViewController.swift */; };
+		81BF7D6D1D6080A300B915E1 /* ControlFunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BF7D6B1D6080A300B915E1 /* ControlFunViewController.swift */; };
+		81BF7D6E1D6080A300B915E1 /* ControlFunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81BF7D6C1D6080A300B915E1 /* ControlFunViewController.xib */; };
+		81BF7D701D6081D000B915E1 /* controlFun.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BF7D6F1D6081D000B915E1 /* controlFun.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		8189F3431D58C560008861BD /* ButtonFunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonFunViewController.swift; sourceTree = "<group>"; };
 		8189F3441D58C560008861BD /* ButtonFunViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonFunViewController.xib; sourceTree = "<group>"; };
 		81BF7D681D6076A600B915E1 /* Ch04IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ch04IndexViewController.swift; sourceTree = "<group>"; };
+		81BF7D6B1D6080A300B915E1 /* ControlFunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlFunViewController.swift; sourceTree = "<group>"; };
+		81BF7D6C1D6080A300B915E1 /* ControlFunViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ControlFunViewController.xib; sourceTree = "<group>"; };
+		81BF7D6F1D6081D000B915E1 /* controlFun.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = controlFun.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,10 +181,21 @@
 		81BF7D671D60767500B915E1 /* Chapter04 */ = {
 			isa = PBXGroup;
 			children = (
+				81BF7D6A1D60807000B915E1 /* Control Fun */,
 				81BF7D681D6076A600B915E1 /* Ch04IndexViewController.swift */,
 			);
 			name = Chapter04;
 			path = ProficientiOSDemo/Chapter04;
+			sourceTree = "<group>";
+		};
+		81BF7D6A1D60807000B915E1 /* Control Fun */ = {
+			isa = PBXGroup;
+			children = (
+				81BF7D6B1D6080A300B915E1 /* ControlFunViewController.swift */,
+				81BF7D6C1D6080A300B915E1 /* ControlFunViewController.xib */,
+				81BF7D6F1D6081D000B915E1 /* controlFun.xcassets */,
+			);
+			name = "Control Fun";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,8 +304,10 @@
 			files = (
 				8189F3461D58C560008861BD /* ButtonFunViewController.xib in Resources */,
 				8152F1201D351B4B00BB8423 /* LaunchScreen.storyboard in Resources */,
+				81BF7D6E1D6080A300B915E1 /* ControlFunViewController.xib in Resources */,
 				8152F11D1D351B4B00BB8423 /* Assets.xcassets in Resources */,
 				8152F11B1D351B4B00BB8423 /* Main.storyboard in Resources */,
+				81BF7D701D6081D000B915E1 /* controlFun.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +335,7 @@
 				8189F3451D58C560008861BD /* ButtonFunViewController.swift in Sources */,
 				8189F33F1D58C463008861BD /* Ch03IndexViewController.swift in Sources */,
 				8152F1441D353C4800BB8423 /* RootViewController.swift in Sources */,
+				81BF7D6D1D6080A300B915E1 /* ControlFunViewController.swift in Sources */,
 				8189F33B1D58B344008861BD /* Ch02IndexViewController.swift in Sources */,
 				8189F3411D58C51D008861BD /* CommonViewController.swift in Sources */,
 				8189F33D1D58B453008861BD /* CommonTableViewController.swift in Sources */,

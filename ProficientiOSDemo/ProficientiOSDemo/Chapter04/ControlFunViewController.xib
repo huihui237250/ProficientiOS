@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ControlFunViewController" customModule="ProficientiOSDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apress_logo" translatesAutoresizingMaskIntoConstraints="NO" id="HZa-9f-Lif">
+                    <rect key="frame" x="214" y="41" width="172" height="80"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ke-9I-XkO">
+                    <rect key="frame" x="8" y="139" width="67" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnD-xA-jwt">
+                    <rect key="frame" x="8" y="188" width="67" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type in a name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bea-fg-unp">
+                    <rect key="frame" x="83" y="135" width="509" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
+                </textField>
+                <textField clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type in a number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="24J-pB-0hb">
+                    <rect key="frame" x="83" y="184" width="509" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="dnD-xA-jwt" firstAttribute="centerY" secondItem="24J-pB-0hb" secondAttribute="centerY" id="04x-wP-aOl"/>
+                <constraint firstItem="5Ke-9I-XkO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="7Rs-Ch-sr2"/>
+                <constraint firstItem="HZa-9f-Lif" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8Zv-gR-9DQ"/>
+                <constraint firstItem="Bea-fg-unp" firstAttribute="leading" secondItem="5Ke-9I-XkO" secondAttribute="trailing" constant="8" symbolic="YES" id="BWD-hF-Hhy"/>
+                <constraint firstItem="5Ke-9I-XkO" firstAttribute="leading" secondItem="dnD-xA-jwt" secondAttribute="leading" id="JaB-s7-NGq"/>
+                <constraint firstItem="5Ke-9I-XkO" firstAttribute="centerY" secondItem="Bea-fg-unp" secondAttribute="centerY" id="OgA-Kw-9ve"/>
+                <constraint firstItem="Bea-fg-unp" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="Vw6-Rl-M3f"/>
+                <constraint firstItem="Bea-fg-unp" firstAttribute="trailing" secondItem="24J-pB-0hb" secondAttribute="trailing" id="Xe1-M9-aAw"/>
+                <constraint firstItem="Bea-fg-unp" firstAttribute="leading" secondItem="24J-pB-0hb" secondAttribute="leading" id="huT-bH-yiW"/>
+                <constraint firstItem="Bea-fg-unp" firstAttribute="top" secondItem="HZa-9f-Lif" secondAttribute="bottom" constant="14" id="kvx-y1-jiN"/>
+                <constraint firstItem="HZa-9f-Lif" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="41" id="pvt-XR-HfD"/>
+                <constraint firstItem="24J-pB-0hb" firstAttribute="top" secondItem="Bea-fg-unp" secondAttribute="bottom" constant="19" id="q6P-tL-yE7"/>
+                <constraint firstItem="dnD-xA-jwt" firstAttribute="width" secondItem="5Ke-9I-XkO" secondAttribute="width" id="usG-4f-lsD"/>
+            </constraints>
+            <point key="canvasLocation" x="456" y="338"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="apress_logo" width="172" height="80"/>
+    </resources>
+</document>
