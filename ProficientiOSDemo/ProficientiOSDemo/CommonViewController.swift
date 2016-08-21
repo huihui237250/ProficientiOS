@@ -12,12 +12,18 @@ class CommonViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
 
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        if isIos7OrLater() {
+            self.edgesForExtendedLayout = .None
+            self.extendedLayoutIncludesOpaqueBars = false
+            self.modalPresentationCapturesStatusBarAppearance = false
+        }
+    }
 }

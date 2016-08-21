@@ -24,6 +24,7 @@
 		81BF7D6D1D6080A300B915E1 /* ControlFunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BF7D6B1D6080A300B915E1 /* ControlFunViewController.swift */; };
 		81BF7D6E1D6080A300B915E1 /* ControlFunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81BF7D6C1D6080A300B915E1 /* ControlFunViewController.xib */; };
 		81BF7D701D6081D000B915E1 /* controlFun.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BF7D6F1D6081D000B915E1 /* controlFun.xcassets */; };
+		81C9D77D1D6984DF001D4343 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9D77C1D6984DF001D4343 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		81BF7D6B1D6080A300B915E1 /* ControlFunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlFunViewController.swift; sourceTree = "<group>"; };
 		81BF7D6C1D6080A300B915E1 /* ControlFunViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ControlFunViewController.xib; sourceTree = "<group>"; };
 		81BF7D6F1D6081D000B915E1 /* controlFun.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = controlFun.xcassets; sourceTree = "<group>"; };
+		81C9D77C1D6984DF001D4343 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				8152F1211D351B4B00BB8423 /* Info.plist */,
 				8189F33C1D58B453008861BD /* CommonTableViewController.swift */,
 				8189F3401D58C51D008861BD /* CommonViewController.swift */,
+				81C9D77C1D6984DF001D4343 /* Common.swift */,
 			);
 			path = ProficientiOSDemo;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				8189F3411D58C51D008861BD /* CommonViewController.swift in Sources */,
 				8189F33D1D58B453008861BD /* CommonTableViewController.swift in Sources */,
 				81BF7D691D6076A600B915E1 /* Ch04IndexViewController.swift in Sources */,
+				81C9D77D1D6984DF001D4343 /* Common.swift in Sources */,
 				8152F1161D351B4B00BB8423 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
