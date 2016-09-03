@@ -13,7 +13,8 @@ class RootViewController: UITableViewController {
     var ListData:Array<Dictionary<String,AnyObject>> = [
         ["Name":"第二章 Demo","ViewController":Ch02IndexViewController()],
         ["Name":"第三章 Demo","ViewController":Ch03IndexViewController()],
-        ["Name":"第四章 Demo","ViewController":Ch04IndexViewController()]]
+        ["Name":"第四章 Demo","ViewController":Ch04IndexViewController()],
+        ["Name":"第五章 Demo","ViewController":Ch05IndexViewController()]]
 
     override func viewDidLoad() {
         super.viewDidLoad()

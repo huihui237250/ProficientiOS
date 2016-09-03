@@ -25,6 +25,11 @@
 		81BF7D6E1D6080A300B915E1 /* ControlFunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81BF7D6C1D6080A300B915E1 /* ControlFunViewController.xib */; };
 		81BF7D701D6081D000B915E1 /* controlFun.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BF7D6F1D6081D000B915E1 /* controlFun.xcassets */; };
 		81C9D77D1D6984DF001D4343 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9D77C1D6984DF001D4343 /* Common.swift */; };
+		81C9D7801D6B4465001D4343 /* Ch05IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9D77F1D6B4465001D4343 /* Ch05IndexViewController.swift */; };
+		81C9D7841D6B46A5001D4343 /* OrientationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9D7821D6B46A5001D4343 /* OrientationViewController.swift */; };
+		81C9D78B1D6B4A8A001D4343 /* OrientationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81C9D78A1D6B4A8A001D4343 /* OrientationViewController.xib */; };
+		81C9D78F1D7AC1F1001D4343 /* LayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9D78D1D7AC1F1001D4343 /* LayoutViewController.swift */; };
+		81C9D7901D7AC1F1001D4343 /* LayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81C9D78E1D7AC1F1001D4343 /* LayoutViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +74,11 @@
 		81BF7D6C1D6080A300B915E1 /* ControlFunViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ControlFunViewController.xib; sourceTree = "<group>"; };
 		81BF7D6F1D6081D000B915E1 /* controlFun.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = controlFun.xcassets; sourceTree = "<group>"; };
 		81C9D77C1D6984DF001D4343 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		81C9D77F1D6B4465001D4343 /* Ch05IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ch05IndexViewController.swift; sourceTree = "<group>"; };
+		81C9D7821D6B46A5001D4343 /* OrientationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrientationViewController.swift; sourceTree = "<group>"; };
+		81C9D78A1D6B4A8A001D4343 /* OrientationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrientationViewController.xib; sourceTree = "<group>"; };
+		81C9D78D1D7AC1F1001D4343 /* LayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutViewController.swift; sourceTree = "<group>"; };
+		81C9D78E1D7AC1F1001D4343 /* LayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayoutViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +109,14 @@
 		8152F1091D351B4A00BB8423 = {
 			isa = PBXGroup;
 			children = (
-				81BF7D671D60767500B915E1 /* Chapter04 */,
 				8189F3391D58B344008861BD /* Chapter02 */,
 				8189F3381D58B313008861BD /* Chapter03 */,
+				81BF7D671D60767500B915E1 /* Chapter04 */,
+				81C9D77E1D6B4429001D4343 /* Chapter05 */,
+				8152F1131D351B4B00BB8423 /* Products */,
 				8152F1141D351B4B00BB8423 /* ProficientiOSDemo */,
 				8152F1291D351B4B00BB8423 /* ProficientiOSDemoTests */,
 				8152F1341D351B4B00BB8423 /* ProficientiOSDemoUITests */,
-				8152F1131D351B4B00BB8423 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -199,6 +210,35 @@
 				81BF7D6F1D6081D000B915E1 /* controlFun.xcassets */,
 			);
 			name = "Control Fun";
+			sourceTree = "<group>";
+		};
+		81C9D77E1D6B4429001D4343 /* Chapter05 */ = {
+			isa = PBXGroup;
+			children = (
+				81C9D78C1D7AC150001D4343 /* Layout */,
+				81C9D7811D6B4567001D4343 /* Orientations */,
+				81C9D77F1D6B4465001D4343 /* Ch05IndexViewController.swift */,
+			);
+			name = Chapter05;
+			path = ProficientiOSDemo/Chapter05;
+			sourceTree = "<group>";
+		};
+		81C9D7811D6B4567001D4343 /* Orientations */ = {
+			isa = PBXGroup;
+			children = (
+				81C9D7821D6B46A5001D4343 /* OrientationViewController.swift */,
+				81C9D78A1D6B4A8A001D4343 /* OrientationViewController.xib */,
+			);
+			name = Orientations;
+			sourceTree = "<group>";
+		};
+		81C9D78C1D7AC150001D4343 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				81C9D78D1D7AC1F1001D4343 /* LayoutViewController.swift */,
+				81C9D78E1D7AC1F1001D4343 /* LayoutViewController.xib */,
+			);
+			name = Layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +350,8 @@
 				81BF7D6E1D6080A300B915E1 /* ControlFunViewController.xib in Resources */,
 				8152F11D1D351B4B00BB8423 /* Assets.xcassets in Resources */,
 				8152F11B1D351B4B00BB8423 /* Main.storyboard in Resources */,
+				81C9D78B1D6B4A8A001D4343 /* OrientationViewController.xib in Resources */,
+				81C9D7901D7AC1F1001D4343 /* LayoutViewController.xib in Resources */,
 				81BF7D701D6081D000B915E1 /* controlFun.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,9 +382,12 @@
 				8152F1441D353C4800BB8423 /* RootViewController.swift in Sources */,
 				81BF7D6D1D6080A300B915E1 /* ControlFunViewController.swift in Sources */,
 				8189F33B1D58B344008861BD /* Ch02IndexViewController.swift in Sources */,
+				81C9D78F1D7AC1F1001D4343 /* LayoutViewController.swift in Sources */,
+				81C9D7801D6B4465001D4343 /* Ch05IndexViewController.swift in Sources */,
 				8189F3411D58C51D008861BD /* CommonViewController.swift in Sources */,
 				8189F33D1D58B453008861BD /* CommonTableViewController.swift in Sources */,
 				81BF7D691D6076A600B915E1 /* Ch04IndexViewController.swift in Sources */,
+				81C9D7841D6B46A5001D4343 /* OrientationViewController.swift in Sources */,
 				81C9D77D1D6984DF001D4343 /* Common.swift in Sources */,
 				8152F1161D351B4B00BB8423 /* AppDelegate.swift in Sources */,
 			);
@@ -490,6 +535,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huihui.ProficientiOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -501,6 +547,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huihui.ProficientiOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
