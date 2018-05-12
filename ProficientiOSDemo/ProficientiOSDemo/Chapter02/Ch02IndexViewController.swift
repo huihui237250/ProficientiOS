@@ -12,7 +12,7 @@ class Ch02IndexViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.whiteColor()
+        self.view.backgroundColor = UIColor.white
         
         if let _ = self.navigationController {
             self.title = "第二章"

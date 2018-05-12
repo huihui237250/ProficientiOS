@@ -22,13 +22,13 @@ class ButtonFunViewController: CommonViewController {
         super.didReceiveMemoryWarning()
     }
     
-    @IBAction func buttonPressed(sender: UIButton) {
-        let titile = sender.titleForState(.Normal)!
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        let titile = sender.title(for: UIControlState())!
         let plainText = "\(titile) button pressed"
         
         let styledText = NSMutableAttributedString(string: plainText)
-        let attributes = [NSFontAttributeName:UIFont.boldSystemFontOfSize(statusLabel.font.pointSize)]
-        let nameRange = (plainText as NSString).rangeOfString(title!)
+        let attributes = [NSFontAttributeName:UIFont.boldSystemFont(ofSize: statusLabel.font.pointSize)]
+        let nameRange = (plainText as NSString).range(of: title!)
         styledText.setAttributes(attributes, range: nameRange)
         statusLabel.attributedText = styledText
     }

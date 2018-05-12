@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 func OSVersion() -> Double {
-    return (UIDevice.currentDevice().systemVersion as NSString).doubleValue
+    return (UIDevice.current.systemVersion as NSString).doubleValue
 }
 
 func isIos7OrLater() -> Bool {

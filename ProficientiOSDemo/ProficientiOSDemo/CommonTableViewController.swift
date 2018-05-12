@@ -21,32 +21,30 @@ class CommonTableViewController: UITableViewController {
         super.didReceiveMemoryWarning()
     }
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if let listData = listData {
             return listData.count
         }
         return 0
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCellWithIdentifier("ProficientCell")
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        var cell = tableView.dequeueReusableCell(withIdentifier: "ProficientCell")
         
         if cell == nil {
-            cell = UITableViewCell(style: .Default, reuseIdentifier: "ProficientCell")
+            cell = UITableViewCell(style: .default, reuseIdentifier: "ProficientCell")
         }
-        cell?.textLabel?.text = String(self.listData![indexPath.row]["Name"]!)
+        cell?.textLabel?.text = String(describing: self.listData![indexPath.row]["Name"]!)
         
         return cell!
     }
     
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        if let view = self.listData![indexPath.row]["ViewController"] where view.isKindOfClass(UIViewController){
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
             self.navigationController?.pushViewController(view as! UIViewController, animated: true)
-        }
     }
 
 }

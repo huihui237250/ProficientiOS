@@ -18,10 +18,10 @@ class CommonViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
 
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         if isIos7OrLater() {
-            self.edgesForExtendedLayout = .None
+            self.edgesForExtendedLayout = UIRectEdge()
             self.extendedLayoutIncludesOpaqueBars = false
             self.modalPresentationCapturesStatusBarAppearance = false
         }

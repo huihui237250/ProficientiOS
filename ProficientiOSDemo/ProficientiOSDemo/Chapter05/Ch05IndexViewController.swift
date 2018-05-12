@@ -11,8 +11,8 @@ import UIKit
 class Ch05IndexViewController: CommonTableViewController {
 
     override func viewDidLoad() {
-        let array:Array<Dictionary<String,AnyObject>> = [["Name":"Orientations","ViewController":OrientationViewController()],
-                                                         ["Name":"Layout","ViewController":LayoutViewController()]];
+        let array:Array<Dictionary<String,AnyObject>> = [["Name":"Orientations" as AnyObject,"ViewController":OrientationViewController()],
+                                                         ["Name":"Layout" as AnyObject,"ViewController":LayoutViewController()]];
         super.listData = array
         
         super.viewDidLoad()

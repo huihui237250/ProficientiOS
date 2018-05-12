@@ -12,7 +12,7 @@ class Ch03IndexViewController: CommonTableViewController {
 
     override func viewDidLoad() {
         
-        let array:Array<Dictionary<String,AnyObject>> = [["Name":"Button Fun","ViewController":ButtonFunViewController()]];
+        let array:Array<Dictionary<String,AnyObject>> = [["Name":"Button Fun" as AnyObject,"ViewController":ButtonFunViewController()]];
         super.listData = array
         
         super.viewDidLoad()

@@ -18,8 +18,8 @@ class OrientationViewController: CommonViewController {
     }
     
     
-    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+    override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
 //        return .AllButUpsideDown
-        return .Portrait;
+        return .portrait;
     }
 }
