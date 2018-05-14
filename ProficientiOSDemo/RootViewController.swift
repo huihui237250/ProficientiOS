@@ -48,6 +48,7 @@ class RootViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let view = self.ListData[indexPath.row]["ViewController"];
             (view as! UIViewController).title = String(describing: self.ListData[indexPath.row]["Name"]!)
             self.navigationController?.pushViewController(view as! UIViewController, animated: true)
     }

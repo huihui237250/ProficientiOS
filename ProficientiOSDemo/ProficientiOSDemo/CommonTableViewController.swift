@@ -44,7 +44,7 @@ class CommonTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-            self.navigationController?.pushViewController(view as! UIViewController, animated: true)
+//            self.navigationController?.pushViewController(view as! UIViewController, animated: true)
     }
 
 }
